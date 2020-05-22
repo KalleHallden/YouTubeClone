@@ -42,7 +42,7 @@ class SuggestionsTab extends StatelessWidget {
     "All",
     "Today",
     "Continue watiching",
-    "Unwathced",
+    "Unwatched",
     "Trending",
     "Programming",
     "Python"
