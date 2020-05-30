@@ -34,12 +34,12 @@ class Video {
 
   String compressViews(List<int> numbers, String viewString) {
     if (viewString.length == numbers[0]) {
-        viewString = viewString.substring(0, 3);
-      } else if (viewString.length == numbers[1]) {
         viewString = viewString.substring(0, 2);
+      } else if (viewString.length == numbers[1]) {
+        viewString = viewString.substring(0, 3);
       } else {
         String newString = viewString.substring(0, 1);
-        viewString = newString +"." + viewString.substring(1, 2);
+        viewString = newString + "." + viewString.substring(1, 2);
       }
       return viewString;
   }
